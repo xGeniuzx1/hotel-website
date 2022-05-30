@@ -364,15 +364,15 @@ nav ul li {
 }
 
 #picture1-events {
-    background: url("/imagenes/Enloprofundo.png") no-repeat center center/cover;
+    background: url("https://cdn-az.allevents.in/events5/banners/e19233f98118fa43aaebec36f725393703f4392d20d8141b4059c5c2f83df114-rimg-w1200-h1697-gmir.jpg?v=1648667662") no-repeat center center/cover;
 }
 
 #picture2-events {
-    background: url("/imagenes/HommyRamos.png") no-repeat center center/cover;
+    background: url("/imagenes/HommyRamos.PNG") no-repeat center center/cover;
 }
 
 #picture3-events {
-    background: url("/imagenes/jazz.png") no-repeat center center/cover;
+    background: url("./imagenes/jazz.png") no-repeat center center/cover;
 }
 
 #picture1-gallery {
