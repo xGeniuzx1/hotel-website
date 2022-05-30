@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <title> Horizon Hotel | Offers</title>
+</head>
+
+<body>
+    <header id="offers-header">
+        <nav id="nav-bar">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-button">Home</a></li>
+            </ul>
+            <ul id="second" class="nav-list">
+                <li><a href="rooms.html" class="nav-button">Rooms</a></li>
+                <li><a href="offers.html" class="nav-button">Offers</a></li>
+                <li><a href="events.html" class="nav-button">Events</a></li>
+                <li><a href="gallery.html" class="nav-button">Gallery</a></li>
+                <li><a href="about.html" class="nav-button">About</a></li>
+                <li><a href="contact.html" class="nav-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="offers">
+            <h2>Special Offers</h2>
+        </div>
+        <section id="section">
+            <div class="sub-section break" id="sub-section1">
+                <div id="picture1-offers" class="picture"></div>
+                <div id="text1" class="text">
+                    <h2 class="rooms-seccion">Suite 1</h2>
+                    <p>Celebrate and wake up to beautiful ocean views. Enjoy breakfast in bed or splash & unwind in our
+                        pools,
+                        or enjoy beach activities and fitness classes by the water or relax at a poolside cabana with
+                        wine & dine</p>
+                    <p>Offers include :</p>
+                    <ul>
+                        <li>Luxury accomodation in a suite</li>
+                        <li>Breakfast for two daily - Value of $25 per person</li>
+                        <li>Breakfast service through In-Room Dining</li>
+                        <li>Breakfast includes eggs of your choice, juice and coffee service <br> Value of $25 per
+                            person.</li>
+                        <li>Kids 5 and under eat for free with this package</li>
+                    </ul>
+                    <div class="button"> <a href="#form-section">Reserve now</a> </div>
+                </div>
+            </div>
+            <div class="sub-section break" id="sub-section2">
+                <div id="picture2-offers" class="picture"></div>
+                <div id="text2" class="text">
+                    <h2 class="rooms-seccion">Suite 2</h2>
+                    <p>Experience the iconic most authentic and exciting luxury lifestyle hotel. Discover an exceptional
+                        balance between
+                        business and leisure by planning a productive and extended stay in our iconic beachfront hotel,
+                        be part of exciting beach activities.
+                        Elevate your business trip and prepare to experience an unforgettable journey.</p>
+                    <p>Offers include</p>
+                    <ul>
+                        <li>Luxury accomodation in a suite</li>
+                        <li>In Room Business set up with printer</li>
+                        <li>Welcome Mini Bar setup (non-alcoholic) and refills available for a fee</li>
+                        <li>WiFi</li>
+                        <li>Microwave in-room upon request</li>
+                    </ul>
+                    <div class="button"> <a href="#form-section">Reserve now</a> </div>
+                </div>
+            </div>
+            <div class="sub-section break" id="sub-section3">
+                <div id="picture3-offers" class="picture"></div>
+                <div id="text3" class="text">
+                    <h2 class="rooms-seccion">Guest Rooms</h2>
+                    <p>Lounge and soak up the sun poolside, relax and unwind at the beach or enjoy beach activities and
+                        fitness classes by the water.</p>
+                    <p>Offers include</p>
+                    <ul>
+                        <li>Meet, Greet and escort upon check-in</li>
+                        <li>Access to Exclusive Experiences</li>
+                        <li>Minimum Two Night Stay</li>
+                        <li>WiFi</li>
+                        <li>Complimentary Full Breakfast for two in-room dining</li>
+                    </ul>
+                    <div class="button"> <a href="#form-section">Reserve now</a> </div>
+                </div>
+            </div>
+        </section>
+        <div id="form-section">
+            <form class="form">
+                <div class="form-group">
+                    <label for="name-input" id="name-label">Name</label>
+                    <input type="text" class="input-text" id="name-input" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-input" id="email-label">Email</label>
+                    <input type="email" class="input-text" id="email-input" placeholder="Enter Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="start-date-input" id="start-date-label">Start Date</label>
+                    <input type="date" class="input-text" id="start-date-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="end-date-input" id="end-date-label">End Date</label>
+                    <input type="date" class="input-text" id="end-date-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="drop-down" id="offer-label">Offer</label>
+                    <select name="offer" id="drop-down">
+                        <option disabled selected value>Select One</option>
+                        <option value="offer-1">Offer 1</option>
+                        <option value="offer-2">Offer 2</option>
+                        <option value="offer-3">Offer 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="payments-input" id="payments-label">Credit Card Number</label>
+                    <input type="text" class="input-text" id="payments-input" placeholder="XXXX XXXX XXXX XXXX"
+                        required>
+                    <label for="exp-input" id="exp-label">Expiration Date</label>
+                    <input type="text" class="input-text" id="exp-input" placeholder="MM/YYYY" required>
+                </div>
+                <div class="form-group">
+                    <label for="ccv-input" id="ccv-label">CCV</label>
+                    <input type="text" class="input-text" id="ccv-input" placeholder="XXX" required>
+                </div>
+                <div id="submit-div">
+                    <button class="button" type="button" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        <div id="social-media">
+            <p>Find us in:</p>
+            <div id="icons">
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+        <div id="contact">
+            <div id="address">
+                <p>2040 Calle San Marino, Luquillo, PR 00773</p>
+                <p>Email: customer-services@hotelsantos.com</p>
+                <p>787-424-9180</p>
+            </div>
+            <div id="break"></div>
+            <div id="links">
+                <div id="links-colum1">
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div id="links-colum2">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Events</a>
+                    <a href="#">Gallery</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
